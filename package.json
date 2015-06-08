@@ -1,0 +1,32 @@
+{
+    "name": "backoff-linear-strategy",
+    "version": "1.0.0",
+    "description": "Linear strategy for backoff",
+    "main": "lib/linear.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:trygve-lie/backoff-linear-strategy.git"
+    },
+    "bugs": {
+    "url": "https://github.com/trygve-lie/backoff-linear-strategy/issues"
+    },
+    "scripts": {
+        "pretest": "jshint ./lib/*.js ./test/*.js",
+        "test": "node ./test/*.js"
+    },
+    "keywords": [
+        "backoff",
+        "linear"
+    ],
+    "author": "Trygve Lie <github@trygve-lie.com>",
+    "license": "MIT",
+    "dependencies": {
+        "backoff": "2.4.x"
+    },
+    "devDependencies": {
+        "chai": "latest",
+        "should": "latest",
+        "jshint": "latest",
+        "mocha": "latest"
+    }
+}
