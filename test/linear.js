@@ -8,30 +8,23 @@ var LinearBackoffStrategy = require('../'),
 
 
 
-var backoff = new Backoff(new LinearBackoffStrategy({
-    initialDelay: 500,
-    maxDelay: 2000
+var linear = new Backoff(new LinearBackoffStrategy({
+    initialDelay: 50,
+    maxDelay: 500
 }));
 
-backoff.failAfter(10);
+linear.failAfter(10);
 
-
-
-backoff.on('backoff', function (number, delay) {
-    console.log('backoff start', number, delay);
+linear.on('backoff', function (number, delay) {
+    console.log(number + ' ' + delay + 'ms');
 });
 
-backoff.on('ready', function (number, delay) {
-    console.log('backoff done', number, delay);
-
-    if (number < 15) {
-        backoff.backoff();
-    }
-
+linear.on('ready', function (number, delay) {
+    linear.backoff();
 });
 
-backoff.on('fail', function () {
+linear.on('fail', function (number, delay) {
     console.log('fail');
 });
 
-backoff.backoff();
+linear.backoff();
