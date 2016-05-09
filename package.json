@@ -8,7 +8,7 @@
         "url": "git@github.com:trygve-lie/backoff-linear-strategy.git"
     },
     "bugs": {
-    "url": "https://github.com/trygve-lie/backoff-linear-strategy/issues"
+        "url": "https://github.com/trygve-lie/backoff-linear-strategy/issues"
     },
     "scripts": {
         "pretest": "jshint ./lib/*.js ./test/*.js",
@@ -21,7 +21,7 @@
     "author": "Trygve Lie <github@trygve-lie.com>",
     "license": "MIT",
     "dependencies": {
-        "backoff": "2.4.x"
+        "backoff": "2.5.0"
     },
     "devDependencies": {
         "chai": "3.5.0",
