@@ -1,6 +1,6 @@
 # backoff-linear-strategy
 
-[![Dependencies](https://img.shields.io/david/trygve-lie/backoff-linear-strategy.svg?style=flat-square)](https://david-dm.org/trygve-lie/backoff-linear-strategy)
+[![Dependencies](https://img.shields.io/david/trygve-lie/backoff-linear-strategy.svg?style=flat-square)](https://david-dm.org/trygve-lie/backoff-linear-strategy)[![Build Status](http://img.shields.io/travis/trygve-lie/backoff-linear-strategy/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/backoff-linear-strategy)
 
 Linear strategy for [backoff](https://github.com/MathieuTurcotte/node-backoff).
 
