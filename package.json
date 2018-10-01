@@ -24,9 +24,9 @@
         "backoff": "2.5.0"
     },
     "devDependencies": {
-        "chai": "4.0.1",
-        "should": "13.2.0",
-        "jshint": "2.9.4",
-        "mocha": "4.0.1"
+        "chai": "4.2.0",
+        "should": "13.2.3",
+        "jshint": "2.9.6",
+        "mocha": "5.2.0"
     }
 }
