@@ -26,7 +26,7 @@
     "devDependencies": {
         "chai": "4.2.0",
         "should": "13.2.3",
-        "jshint": "2.9.6",
+        "jshint": "2.9.7",
         "mocha": "5.2.0"
     }
 }
